@@ -16,7 +16,7 @@
 
 ---
 
-Hi, I'm **Hoang** — a solo vibe-coder from Vietnam. I ship real products by directing coding agents: I design the system, set the invariants, review the diffs — agents write the code. Every repo carries an `AGENTS.md` so the next session picks up cold.
+Hi, I'm **Thunder** — a solo vibe-coder from Vietnam. I ship real products by directing coding agents: I design the system, set the invariants, review the diffs — agents write the code. Every repo carries an `AGENTS.md` so the next session picks up cold.
 
 Current build: **MoneyFlow**.
 
