@@ -1,41 +1,52 @@
-# Hi, I'm Hoang
+<div align="center">
 
-Student builder from Vietnam. I design and ship small, opinionated products — mostly around Vietnamese daily life, English learning, and making coding agents work well on real projects.
+# MoneyFlow
 
-## Products
+**Personal finance for Vietnamese users — a ledger you actually own.**
 
-| Project | What it is | Live |
-|---|---|---|
-| [vietnam-social](https://github.com/Thunderkill016/vietnam-social) | Map-native Vietnamese social network — the social layer of Vietnam's map | [vietnamsocial.vercel.app](https://vietnamsocial.vercel.app) |
-| [moneyflow](https://github.com/Thunderkill016/moneyflow) | Personal finance for Vietnamese users, built on a trustworthy user-owned ledger | [mfvn.vercel.app](https://mfvn.vercel.app) |
-| [atoenglish](https://github.com/Thunderkill016/atoenglish) | English learning app for Vietnamese speakers | [atoenglish.vercel.app](https://atoenglish.vercel.app) |
-| [vidlish](https://github.com/Thunderkill016/vidlish) | Turn any YouTube video into a personalized English lesson | [demo](https://vidlish-thunderkill016s-projects.vercel.app) |
-| [flashday](https://github.com/Thunderkill016/flashday) | English flashcards with FSRS spaced repetition | [flashdayvn.vercel.app](https://flashdayvn.vercel.app) |
+[![Repo](https://img.shields.io/badge/GitHub-moneyflow-181717?style=for-the-badge&logo=github)](https://github.com/Thunderkill016/moneyflow)
+[![Live](https://img.shields.io/badge/Live-mfvn.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://mfvn.vercel.app)
 
-## Games
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-Postgres%20%2B%20RLS-3ECF8E?logo=supabase&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-deployed-000?logo=vercel)
 
-| Project | What it is |
-|---|---|
-| [skybound-flap](https://github.com/Thunderkill016/skybound-flap) | Precision one-button flight game — one tap, find your line |
-| [cotuongai](https://github.com/Thunderkill016/cotuongai) | Ky Lo — Xiangqi trainer vs Pikafish engine, 3D board & post-game review |
-| [xe-om-chaos](https://github.com/Thunderkill016/xe-om-chaos) | Xe om arcade browser game set in Saigon alleys (Three.js) |
-
-## Agent tooling
-
-| Project | What it is |
-|---|---|
-| [cw](https://github.com/Thunderkill016/cw) | Deterministic governance for AI-generated code — zero-dependency CLI & TS library |
-| [cyclewarden](https://github.com/Thunderkill016/cyclewarden) | AI-native product evolution system & deterministic control engine |
-| [agent-first-software-playbook](https://github.com/Thunderkill016/agent-first-software-playbook) | How to structure a project so a coding agent can enter, execute, verify and hand off |
-| [chatgpt-tabflow](https://github.com/Thunderkill016/chatgpt-tabflow) | Chrome MV3 extension for managing many ChatGPT tabs without the lag |
-
-## Research
-
-| Project | What it is |
-|---|---|
-| [vidlish-research](https://github.com/Thunderkill016/vidlish-research) | Evidence base behind the Nep/Vidlish learning product |
-| [moneyflow-research](https://github.com/Thunderkill016/moneyflow-research) | Research knowledge base for MoneyFlow decisions |
+</div>
 
 ---
 
-Mostly shipping with **TypeScript / Next.js / Vercel**, plain JavaScript where it counts, and Python for research. Every repo here keeps an `AGENTS.md` so an agent can pick the project up cold.
+Hi, I'm **Hoang** — a student builder in Vietnam. Right now I'm putting everything into one product: **MoneyFlow**.
+
+The idea: most finance apps for Vietnamese users are either too complex, too foreign, or lock your data inside their platform. MoneyFlow is the opposite — a boringly trustworthy ledger where every đồng is traceable, exportable, and yours.
+
+### What it does
+
+- **Multiple accounts** — cash, bank, e-wallet, credit, savings
+- **Income / expense / internal transfers** with soft-delete & recovery
+- **Budgets, recurring commitments & savings goals**
+- **Weekly · monthly · yearly reports**
+- **CSV import/export** + full versioned backup
+- **Demo mode** — try instantly, no sign-up
+- **Authenticated mode** — Supabase Auth, tenant-isolated by Postgres RLS
+- Light/dark, responsive
+
+### How it's built
+
+| Principle | Concretely |
+|---|---|
+| Money is exact | VND stored as integer đồng — never floating point |
+| Transfers aren't income | Equal/opposite movements, excluded from reports |
+| No silent fallbacks | Missing data is shown missing, never guessed |
+| Your data is yours | Row-level security, full export & restore, no lock-in |
+| Demo ≠ real | Two explicit runtime modes, never silently mixed |
+
+### Stack
+
+`Next.js 16` · `TypeScript` · `Supabase (Auth + Postgres RLS)` · `Tailwind` · `Vercel`
+
+---
+
+<div align="center">
+<sub>Building in public · everything else is intentionally kept private while I focus on this one.</sub>
+</div>
