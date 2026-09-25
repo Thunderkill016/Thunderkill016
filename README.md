@@ -16,7 +16,9 @@
 
 ---
 
-Hi, I'm **Hoang** — a student builder in Vietnam. Right now I'm putting everything into one product: **MoneyFlow**.
+Hi, I'm **Hoang** — a solo vibe-coder from Vietnam. I ship real products by directing coding agents: I design the system, set the invariants, review the diffs — agents write the code. Every repo carries an `AGENTS.md` so the next session picks up cold.
+
+Current build: **MoneyFlow**.
 
 The idea: most finance apps for Vietnamese users are either too complex, too foreign, or lock your data inside their platform. MoneyFlow is the opposite — a boringly trustworthy ledger where every đồng is traceable, exportable, and yours.
 
@@ -48,5 +50,5 @@ The idea: most finance apps for Vietnamese users are either too complex, too for
 ---
 
 <div align="center">
-<sub>Building in public · everything else is intentionally kept private while I focus on this one.</sub>
+<sub>Solo + agents · one focused product at a time · everything else is intentionally kept private.</sub>
 </div>
